@@ -1,59 +1,156 @@
-# GanopolyExpress
+🕉️ Ganopoly Express
+A fast, simplified Indian-themed board game inspired by Monopoly Express.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+Ganopoly Express is a digital board game built with Angular 21, TailwindCSS, and FontAwesome, inspired by the concept of Monopoly Express but redesigned with an original Ganesha-inspired Indian theme.
+The goal is to offer a light, fast, positive, and colorful experience.
 
-## Development server
+🚀 Features
 
-To start a local development server, run:
+Built with Angular 21
 
-```bash
+Styled using TailwindCSS
+
+Icons provided by FontAwesome
+
+Fully custom simplified 12-space board
+
+Dice-based gameplay
+
+1 human + up to 3 AI opponents
+
+Simple, fast game loop
+
+Indian aesthetic inspired by Ganesha
+
+📦 Tech Stack
+Layer	Tool
+Framework	Angular 21
+Styling	TailwindCSS
+Icons	FontAwesome
+Language	TypeScript
+Tooling	Angular CLI
+🎮 Game Rules (Simplified Ganopoly Express)
+Board Layout – 12 Spaces
+
+Start (+200 €)
+
+Property (cheap)
+
+Property (medium)
+
+Chance Card
+
+Bonus (+100 €)
+
+Property (high value)
+
+Tax (–100 €)
+
+Property (medium)
+
+Prison (skip next turn)
+
+Property (cheap)
+
+Chance Card
+
+Parking (+100 € reward)
+
+Turn Sequence
+
+Roll 2 dice
+
+Move forward
+
+Pass Start → +200 €
+
+Resolve the landed space
+
+End turn → next player or AI
+
+Properties
+
+Can be purchased if unowned
+
+AI auto-buys if it can afford it
+
+Rent must be paid to owners
+
+Chance Cards
+
+Examples:
+
++150 €
+
+–100 €
+
+Move to another space
+
+Give 50 € to all players
+
+Lose next turn
+
+Gain a blessing (+100 €)
+
+Prison
+
+Skip one turn.
+
+🔧 Development
+1. Development server
+
+Start a dev server with:
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+Navigate to:
+👉 http://localhost:4200/
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Hot-reload is automatic.
 
-```bash
+🛠️ Code scaffolding
+
+To generate a new component:
+
 ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
+For all schematics:
+
 ng generate --help
-```
 
-## Building
+🏗️ Building the application
 
-To build the project run:
+Build for production:
 
-```bash
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+Output goes to dist/, optimized and minified.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+🧪 Running unit tests
 
-```bash
+Run tests with Karma:
+
 ng test
-```
 
-## Running end-to-end tests
+🧭 Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+Angular 21 no longer ships with an e2e framework.
+You may choose Cypress, Playwright, or any preferred tool.
 
-```bash
-ng e2e
-```
+🎨 Styling (TailwindCSS)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Tailwind is configured in:
 
-## Additional Resources
+tailwind.config.js
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+global styles in styles.css or styles.scss
+
+Utility classes are used throughout the templates.
+
+⭐ FontAwesome
+
+FontAwesome Free is included for icons.
+Importations are managed through global styles or component-level usage depending on the project structure.
